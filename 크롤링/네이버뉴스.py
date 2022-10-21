@@ -69,9 +69,6 @@ def getNavernewsInfo(filename,urlList,dateList,titleList,contentList,i):
     df.to_csv(filename)
 
 
-
-
-
 def main():
     i = 1
     startdate='2021.10.01'
